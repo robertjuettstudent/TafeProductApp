@@ -36,11 +36,15 @@ namespace ProductApps
 
                 // Add a delivery charge of $25
                 decimal deliveryCharge = 25.00m;
-                decimal totalCharge = totalPayment + deliveryCharge;
+                decimal wrappingCharge = 5.00m;  // Added wrapping charge
+                decimal totalCharge = totalPayment + deliveryCharge + wrappingCharge;  // Updated total charge calculation
 
                 // Display the total payment and total charge
                 totalPaymentTextBlock.Text = totalPayment.ToString("C");
                 totalChargeTextBox.Text = totalCharge.ToString("C");
+
+                // Display the total charge after wrap
+                totalChargeAfterWrapTextBox.Text = totalCharge.ToString("C");
             }
             catch (Exception ex)
             {
