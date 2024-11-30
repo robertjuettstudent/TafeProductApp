@@ -14,6 +14,11 @@
     <!-- Added TextBlock for Total Charge -->
     <TextBlock Name="totalChargeTextBox" HorizontalAlignment="Left" Height="23" Margin="250,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
 
+    <!-- Add label for GST -->
+    <Label Content="Total Charge After GST (@10%) = &#xA; (Total Payment + $25.00 + $5.00) * 1.1" HorizontalAlignment="Left" Height="30" Margin="46,300,0,0" VerticalAlignment="Top" Width="300"/>
+    <TextBlock Name="totalChargeAfterGSTTextBox" HorizontalAlignment="Left" Height="23" Margin="250,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+
+
     <TextBlock Name="totalPaymentTextBlock" HorizontalAlignment="Left" Height="23" Margin="164,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
 
     <TextBox Name="productTextBox" HorizontalAlignment="Left" Height="24" Margin="122,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
