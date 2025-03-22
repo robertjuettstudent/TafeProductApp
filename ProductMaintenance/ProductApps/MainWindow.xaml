@@ -23,7 +23,11 @@
         <Button Name="closeButton" Content="Cl_ose" HorizontalAlignment="Left" Height="34" Margin="327,264,0,0" VerticalAlignment="Top" Width="122" Click="closeButton_Click"/>
 
         <!-- New Label and TextBlock for Total Charge -->
-        <Label Content="Total Charge after adding &#xA;the delivery charge ($25)" HorizontalAlignment="Left" Height="45" Margin="46,210,0,0" VerticalAlignment="Top" Width="250"/>
-        <TextBlock Name="totalChargeTextBlock" HorizontalAlignment="Left" Height="23" Margin="222,221,0,0" TextWrapping="Wrap" Text="0.00" VerticalAlignment="Top" Width="74"/>
+        <Label Content="Total Charge after adding &#xA;the delivery charge ($25)" HorizontalAlignment="Left" Height="45" Margin="48,197,0,0" VerticalAlignment="Top" Width="250"/>
+        <TextBlock Name="totalChargeTextBlock" HorizontalAlignment="Left" Height="23" Margin="222,209,0,0" TextWrapping="Wrap" Text="0.00" VerticalAlignment="Top" Width="74"/>
+        <TextBlock x:Name="totalChargeWrapBlock" HorizontalAlignment="Left" Height="23" Margin="222,251,0,0" TextWrapping="Wrap" Text="0.00" VerticalAlignment="Top" Width="74"/>
+        <TextBlock x:Name="totalChargeGSTBlock" HorizontalAlignment="Left" Height="23" Margin="217,292,0,0" TextWrapping="Wrap" Text="0.00" VerticalAlignment="Top" Width="74"/>
+        <Label Content="Total Charge after adding &#xA;the wrap charge ($5)" HorizontalAlignment="Left" Height="45" Margin="48,244,0,0" VerticalAlignment="Top" Width="154"/>
+        <Label Content="Total Charge after adding &#xA;the GST @ 10%" HorizontalAlignment="Left" Height="45" Margin="50,281,0,0" VerticalAlignment="Top" Width="167"/>
     </Grid>
 </Window>
