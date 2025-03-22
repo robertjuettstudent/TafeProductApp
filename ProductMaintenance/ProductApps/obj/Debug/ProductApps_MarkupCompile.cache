@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\MyGST\TafeProductApp\ProductMaintenance\ProductApps\obj\Debug\
+=======
+C:\MyWrap\TafeProductApp\ProductMaintenance\ProductApps\obj\Debug\
+>>>>>>> remotes/origin/feat_wrap1.1
 ProductApps
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\MyGST\TafeProductApp\ProductMaintenance\ProductApps\App.xaml
+=======
+C:\MyWrap\TafeProductApp\ProductMaintenance\ProductApps\App.xaml
+>>>>>>> remotes/origin/feat_wrap1.1
 1219584333
 
 6554896430
