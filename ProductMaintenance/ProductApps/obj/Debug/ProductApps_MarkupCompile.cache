@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\MyWrap\TafeProductApp\ProductMaintenance\ProductApps\obj\Debug\
+=======
+C:\MyGST\TafeProductApp\ProductMaintenance\ProductApps\obj\Debug\
+>>>>>>> d6135d4e935f86ffed7b5d82f055f495bf3d6063
 ProductApps
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\MyWrap\TafeProductApp\ProductMaintenance\ProductApps\App.xaml
+=======
+C:\MyGST\TafeProductApp\ProductMaintenance\ProductApps\App.xaml
+>>>>>>> d6135d4e935f86ffed7b5d82f055f495bf3d6063
 1219584333
 
 6554896430

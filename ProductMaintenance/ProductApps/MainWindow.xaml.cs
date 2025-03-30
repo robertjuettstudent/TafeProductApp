@@ -47,8 +47,22 @@ namespace ProductApps
                 // Calculate the total charge including delivery and wrapping charges
                 decimal totalCharge = totalPayment + deliveryCharge + wrappingCharge;
 
-                // Display the total charge in the TotalCharge TextBlock
+                // Display the total charge after delivery charge
                 totalChargeTextBlock.Text = totalCharge.ToString("0.00");
+
+                // Add $5 wrapping charge
+                decimal wrapCharge = 5.00m;
+                decimal totalChargeWithWrap = totalCharge + wrapCharge;
+
+                // Display the total charge after the wrap charge
+                totalChargeWrapBlock.Text = totalChargeWithWrap.ToString("0.00");
+
+                // Calculate GST at 10%
+                decimal gst = 0.10m * totalChargeWithWrap;
+
+                // Display the total charge after GST
+                decimal totalWithGST = totalChargeWithWrap + gst;
+                totalChargeGSTBlock.Text = totalWithGST.ToString("0.00");
             }
             catch (Exception ex)
             {
@@ -65,6 +79,8 @@ namespace ProductApps
             quantityTextBox.Clear();
             totalPaymentTextBlock.Text = string.Empty;
             totalChargeTextBlock.Text = string.Empty;
+            totalChargeWrapBlock.Text = string.Empty;
+            totalChargeGSTBlock.Text = string.Empty;
         }
 
         // Close button click event handler

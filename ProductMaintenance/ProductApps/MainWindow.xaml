@@ -30,6 +30,7 @@
     Total Charge after adding delivery ($25) and wrapping charge ($5)
         </TextBlock>
 
+<<<<<<< HEAD
         <!-- Updated TextBlock for Total Charge -->
         <TextBlock Name="totalChargeTextBlock"
            HorizontalAlignment="Left"
@@ -38,5 +39,14 @@
            Text="0.00"
            Width="74"
            TextWrapping="Wrap" />
+=======
+        <!-- New Label and TextBlock for Total Charge -->
+        <Label Content="Total Charge after adding &#xA;the delivery charge ($25)" HorizontalAlignment="Left" Height="45" Margin="48,197,0,0" VerticalAlignment="Top" Width="250"/>
+        <TextBlock Name="totalChargeTextBlock" HorizontalAlignment="Left" Height="23" Margin="222,209,0,0" TextWrapping="Wrap" Text="0.00" VerticalAlignment="Top" Width="74"/>
+        <TextBlock x:Name="totalChargeWrapBlock" HorizontalAlignment="Left" Height="23" Margin="222,251,0,0" TextWrapping="Wrap" Text="0.00" VerticalAlignment="Top" Width="74"/>
+        <TextBlock x:Name="totalChargeGSTBlock" HorizontalAlignment="Left" Height="23" Margin="217,292,0,0" TextWrapping="Wrap" Text="0.00" VerticalAlignment="Top" Width="74"/>
+        <Label Content="Total Charge after adding &#xA;the wrap charge ($5)" HorizontalAlignment="Left" Height="45" Margin="48,244,0,0" VerticalAlignment="Top" Width="154"/>
+        <Label Content="Total Charge after adding &#xA;the GST @ 10%" HorizontalAlignment="Left" Height="45" Margin="50,281,0,0" VerticalAlignment="Top" Width="167"/>
+>>>>>>> d6135d4e935f86ffed7b5d82f055f495bf3d6063
     </Grid>
 </Window>
